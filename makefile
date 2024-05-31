@@ -1,5 +1,5 @@
 target/release/bfcr: src/bin/bfcr.rs Cargo.toml
-	cargo build
+	cargo build --release
 
 bfcr: src/bin/bfcr.rs
 	rustc -O $<
